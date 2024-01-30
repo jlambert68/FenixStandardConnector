@@ -7,14 +7,11 @@ WORKDIR /dockerdev
 COPY go.* ./
 RUN go mod tidy
 
-RUN apt-get update && \
-    apt-get install -y libc6
-
 RUN go build -o /fenixStandardConnector .
 
 
 # Final stage
-FROM debian:buster
+FROM debian:bullseye
 #FROM golang:1.13.8
 
 EXPOSE 6673
