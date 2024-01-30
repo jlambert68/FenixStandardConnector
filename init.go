@@ -1,7 +1,6 @@
 package main
 
 import (
-	"FenixStandardConnector/sharedCode"
 	"log"
 	"os"
 )
@@ -18,8 +17,5 @@ func mustGetenv(k string) string {
 
 // Extract environment variables used by this Connector-code
 func init() {
-
-	// API-key used in TestInstruction 'TestInstruction_Standard_IsDateAPublicHoliday' to call external service
-	sharedCode.ApiKey = mustGetenv("ApiKey")
 
 }
