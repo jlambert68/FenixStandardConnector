@@ -11,7 +11,8 @@ RUN go build -o /fenixStandardConnector .
 
 
 # Final stage
-FROM debian:bullseye
+FROM golang:1.21
+# FROM debian:bullseye
 #FROM golang:1.13.8
 
 EXPOSE 6673
