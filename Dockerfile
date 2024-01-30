@@ -11,7 +11,8 @@ RUN go build -o /fenixStandardConnector .
 
 
 # Final stage
-FROM golang:1.21
+# FROM golang:1.21
+FROM debian:bookworm
 # FROM debian:bullseye
 #FROM golang:1.13.8
 
