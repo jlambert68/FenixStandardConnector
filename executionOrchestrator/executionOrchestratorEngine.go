@@ -17,7 +17,11 @@ import (
 // Initiate Call-Back-struct and initiate
 var connectorFunctionsToDoCallBackOn *fenixConnectorAdminShared_sharedCode.ConnectorCallBackFunctionsStruct
 
-func InitiateExecutionOrchestratorEngine() {
+var allowedUsers []byte
+
+func InitiateExecutionOrchestratorEngine(tempAllowedUsers []byte) {
+
+	allowedUsers = tempAllowedUsers
 
 	connectorFunctionsToDoCallBackOn = &fenixConnectorAdminShared_sharedCode.ConnectorCallBackFunctionsStruct{
 		GetMaxExpectedFinishedTimeStamp:        getMaxExpectedFinishedTimeStamp,
@@ -67,7 +71,8 @@ func generateSupportedTestInstructionsAndTestInstructionContainersAndAllowedUser
 		TestInstructionsAndTestInstructionsContainersStruct) {
 
 	// Generate the full structure for supported TestInstructions, TestInstructionContainers and Allowed Users
-	TestInstructionsAndTesInstructionContainersAndAllowedUsers.GenerateTestInstructionsAndTestInstructionContainersAndAllowedUsers_FenixStandard()
+	TestInstructionsAndTesInstructionContainersAndAllowedUsers.
+		GenerateTestInstructionsAndTestInstructionContainersAndAllowedUsers_FenixStandard(allowedUsers)
 
 	// Get the full structure for supported TestInstructions, TestInstructionContainers and Allowed Users
 	supportedTestInstructionsAndTestInstructionContainersAndAllowedUsers =

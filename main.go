@@ -7,7 +7,7 @@ import (
 func main() {
 
 	// Initiate ExecutionOrchestratorEngine
-	executionOrchestrator.InitiateExecutionOrchestratorEngine()
+	executionOrchestrator.InitiateExecutionOrchestratorEngine(allowedUsers)
 
 	// Keep program running
 	for {
