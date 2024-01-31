@@ -3,7 +3,7 @@ module FenixStandardConnector
 go 1.21
 
 require (
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240131092543-13c15f035338
+	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240131125151-7a4b7ce4e40c
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20240129152625-acb237e2fb83
 	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240131120928-ba052ae2f63a
 	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240131120548-f60bf60fd032
