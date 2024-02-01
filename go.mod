@@ -3,10 +3,10 @@ module FenixStandardConnector
 go 1.21
 
 require (
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240131165841-e2be7e099a11
+	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240201195718-5abafdd5fb6c
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20240129152625-acb237e2fb83
-	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240131120928-ba052ae2f63a
-	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240131120548-f60bf60fd032
+	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240131202829-c2e923673831
+	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240131202504-fdcb51c7dd8d
 	github.com/sirupsen/logrus v1.9.3
 )
 
