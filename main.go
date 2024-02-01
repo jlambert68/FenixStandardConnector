@@ -10,7 +10,8 @@ func main() {
 	executionOrchestrator.InitiateExecutionOrchestratorEngine(allowedUsers)
 
 	// Keep program running
-	for {
-	}
+	var waitChannel chan bool
+	waitChannel = make(chan bool)
+	<-waitChannel
 
 }
