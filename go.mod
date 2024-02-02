@@ -3,10 +3,10 @@ module FenixStandardConnector
 go 1.21
 
 require (
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240201195718-5abafdd5fb6c
+	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240202092904-889ab3823fa8
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20240129152625-acb237e2fb83
 	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240131202829-c2e923673831
-	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240131202504-fdcb51c7dd8d
+	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240201113112-e465853d38bd
 	github.com/sirupsen/logrus v1.9.3
 )
 
@@ -15,7 +15,7 @@ require (
 	cloud.google.com/go/compute v1.23.3 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.1.5 // indirect
-	cloud.google.com/go/pubsub v1.36.0 // indirect
+	cloud.google.com/go/pubsub v1.36.1 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-gota/gota v0.12.0 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
@@ -59,7 +59,7 @@ require (
 	google.golang.org/api v0.160.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20240125205218-1f4bbc51befe // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240122161410-6c6643bf1457 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240125205218-1f4bbc51befe // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240116215550-a9fa1716bcac // indirect
 	google.golang.org/grpc v1.61.0 // indirect
 	google.golang.org/protobuf v1.32.0 // indirect
