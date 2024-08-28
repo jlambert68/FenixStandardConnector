@@ -14,15 +14,17 @@ func generateSimpleTestData() []*testDataEngine.TestDataFromSimpleTestDataAreaSt
 
 	for _, testDataFile := range simpleTestDataFiles {
 
-		var simpleTestDataFile testDataEngine.TestDataFromSimpleTestDataAreaStruct
-		simpleTestDataFile = testDataEngine.ImportEmbeddedSimpleCsvTestDataFile(testDataFile, ';')
+		if testDataFile != nil {
+			var simpleTestDataFile testDataEngine.TestDataFromSimpleTestDataAreaStruct
+			simpleTestDataFile = testDataEngine.ImportEmbeddedSimpleCsvTestDataFile(testDataFile, ';')
 
-		// Get file hash and add to data
-		fileHash = fenixSyncShared.HashSingleValue(string(testDataFile))
-		simpleTestDataFile.TestDataFileSha256Hash = fileHash
+			// Get file hash and add to data
+			fileHash = fenixSyncShared.HashSingleValue(string(testDataFile))
+			simpleTestDataFile.TestDataFileSha256Hash = fileHash
 
-		// Add TestData to slice of all TestData
-		testDataFiles = append(testDataFiles, &simpleTestDataFile)
+			// Add TestData to slice of all TestData
+			testDataFiles = append(testDataFiles, &simpleTestDataFile)
+		}
 	}
 
 	return testDataFiles

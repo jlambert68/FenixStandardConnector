@@ -13,6 +13,10 @@ func generateTemplateRepositoryConnectionParameters() *fenixConnectorAdminShared
 
 	var allTemplateRepositoryConnectionParameters *fenixConnectorAdminShared_sharedCode.RepositoryTemplatePathStruct
 
+	if templateUrlParameters != nil {
+		templateUrlParameters = []byte("{}")
+	}
+
 	// Unmarshal the JSON data into the struct
 	err := json.Unmarshal(templateUrlParameters, &allTemplateRepositoryConnectionParameters)
 	if err != nil {

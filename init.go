@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/jlambert68/FenixSyncShared/environmentVariables"
 	"log"
 	"os"
 )
@@ -15,7 +16,8 @@ func mustGetenv(k string) string {
 	return v
 }
 
-// Extract environment variables used by this Connector-code
 func init() {
 
+	// Initiate object that extract Environment Variables or Injected Environment Variables
+	environmentVariables.InitiateInjectedVariablesMap(&injectedVariablesMap)
 }

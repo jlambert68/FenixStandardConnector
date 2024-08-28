@@ -5,10 +5,11 @@ go 1.22
 toolchain go1.23.0
 
 require (
+	github.com/google/uuid v1.6.0
 	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240807081321-aa238039e734
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20240828105603-3ccecfdadf07
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240823133128-e998fc3d4fed
-	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240828122046-d305262863b5
+	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240828182737-192b2d522ccc
 	github.com/jlambert68/FenixSyncShared v0.0.0-20240215140904-db0840b5d70a
 	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240828110725-80c75b00f7a0
 	github.com/sirupsen/logrus v1.9.3
@@ -28,7 +29,6 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
-	github.com/google/uuid v1.6.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.13.0 // indirect
 	github.com/gorilla/context v1.1.2 // indirect
