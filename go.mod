@@ -6,12 +6,12 @@ toolchain go1.23.0
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240807081321-aa238039e734
+	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240829090406-3fc2935303d8
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20240828105603-3ccecfdadf07
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240823133128-e998fc3d4fed
-	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240828183755-40d4395fe9b6
+	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240829115451-9c9bbafd704a
 	github.com/jlambert68/FenixSyncShared v0.0.0-20240215140904-db0840b5d70a
-	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240828110725-80c75b00f7a0
+	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240829085726-37164a2e9444
 	github.com/sirupsen/logrus v1.9.3
 )
 
