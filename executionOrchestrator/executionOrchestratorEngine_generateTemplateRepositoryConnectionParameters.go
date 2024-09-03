@@ -13,7 +13,7 @@ func generateTemplateRepositoryConnectionParameters() *fenixConnectorAdminShared
 
 	var allTemplateRepositoryConnectionParameters *fenixConnectorAdminShared_sharedCode.RepositoryTemplatePathStruct
 
-	if templateUrlParameters != nil {
+	if templateUrlParameters == nil {
 		templateUrlParameters = []byte("{}")
 	}
 

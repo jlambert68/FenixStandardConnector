@@ -1,13 +1,13 @@
 module FenixStandardConnector
 
-go 1.22
+go 1.23
 
 toolchain go1.23.0
 
 require (
 	github.com/google/uuid v1.6.0
 	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240829090406-3fc2935303d8
-	github.com/jlambert68/FenixGrpcApi v0.0.0-20240830054946-33e5771fee81
+	github.com/jlambert68/FenixGrpcApi v0.0.0-20240902161440-74b93725d1bc
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240823133128-e998fc3d4fed
 	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240902153743-5a94592b5fd9
 	github.com/jlambert68/FenixSyncShared v0.0.0-20240215140904-db0840b5d70a
