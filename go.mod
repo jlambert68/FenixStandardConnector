@@ -6,11 +6,10 @@ toolchain go1.23.0
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20240829090406-3fc2935303d8
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20240902161440-74b93725d1bc
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240823133128-e998fc3d4fed
-	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240902153743-5a94592b5fd9
-	github.com/jlambert68/FenixSyncShared v0.0.0-20240215140904-db0840b5d70a
+	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20240911121948-484d36e107a5
+	github.com/jlambert68/FenixSyncShared v0.0.0-20240911064419-da3d922610cb
 	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20240830110518-fbce28ce9256
 	github.com/sirupsen/logrus v1.9.3
 )
@@ -43,7 +42,7 @@ require (
 	github.com/jackc/pgproto3/v2 v2.3.3 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/pgtype v1.14.3 // indirect
-	github.com/jackc/pgx/v4 v4.18.3 // indirect
+	github.com/jackc/pgx/v4 v4.18.2 // indirect
 	github.com/jackc/puddle v1.3.0 // indirect
 	github.com/markbates/goth v1.80.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
