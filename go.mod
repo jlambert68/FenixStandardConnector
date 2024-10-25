@@ -9,7 +9,7 @@ require (
 	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20241024130412-767df6e725d3
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20241024112839-e9bc605c05df
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240926173607-33468503e5cd
-	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20241024135856-7b60692dd454
+	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20241025085754-ced7ee5586a6
 	github.com/jlambert68/FenixSyncShared v0.0.0-20240911064419-da3d922610cb
 	github.com/jlambert68/FenixTestInstructionsAdminShared v0.0.0-20241024135649-85f0f911fdda
 	github.com/sirupsen/logrus v1.9.3
