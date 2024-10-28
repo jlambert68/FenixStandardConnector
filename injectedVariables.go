@@ -41,6 +41,10 @@ var (
 	injectedOpenShiftsGcpTokenSourceUrl                                                           string
 	injected_GitHubApiKeys                                                                        string
 	injected_PrivateKey                                                                           string
+	injected_GenerateNewPrivateKeyForDev                                                          string
+	injected_GenerateNewPrivateKeyForAcc                                                          string
+	injected_ENVIRONMENT                                                                          string
+	injected_ExecutionEnvironmentPlatform                                                         string
 )
 
 // Used for hard coding if Injected or real Environment Variables are expected
@@ -86,4 +90,8 @@ var injectedVariablesMap = map[string]*string{
 	"Injected_OpenShiftsGcpTokenSourceUrl":                              &injectedOpenShiftsGcpTokenSourceUrl,
 	"Injected_GitHubApiKeys":                                            &injected_GitHubApiKeys,
 	"Injected_PrivateKey":                                               &injected_PrivateKey,
+	"Injected_GenerateNewPrivateKeyForDev":                              &injected_GenerateNewPrivateKeyForDev,
+	"Injected_GenerateNewPrivateKeyForAcc":                              &injected_GenerateNewPrivateKeyForAcc,
+	"Injected_ENVIRONMENT":                                              &injected_ENVIRONMENT,
+	"Injected_ExecutionEnvironmentPlatform":                             &injected_ExecutionEnvironmentPlatform,
 }
