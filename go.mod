@@ -6,7 +6,7 @@ toolchain go1.23.0
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20241024130412-767df6e725d3
+	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20241028150440-9616fc567523
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20241024112839-e9bc605c05df
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240926173607-33468503e5cd
 	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20241025085754-ced7ee5586a6
@@ -22,6 +22,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.5.2 // indirect
 	cloud.google.com/go/iam v1.2.2 // indirect
 	cloud.google.com/go/pubsub v1.45.0 // indirect
+	cloud.google.com/go/secretmanager v1.14.1 // indirect
 	github.com/decred/dcrd/crypto/blake256 v1.1.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
