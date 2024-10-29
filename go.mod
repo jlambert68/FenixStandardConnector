@@ -6,7 +6,7 @@ toolchain go1.23.0
 
 require (
 	github.com/google/uuid v1.6.0
-	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20241028150440-9616fc567523
+	github.com/jlambert68/FenixConnectorAdminShared v0.0.0-20241029083422-aae4217f5aae
 	github.com/jlambert68/FenixGrpcApi v0.0.0-20241024112839-e9bc605c05df
 	github.com/jlambert68/FenixScriptEngine v0.0.0-20240926173607-33468503e5cd
 	github.com/jlambert68/FenixStandardTestInstructionAdmin v0.0.0-20241025085754-ced7ee5586a6
